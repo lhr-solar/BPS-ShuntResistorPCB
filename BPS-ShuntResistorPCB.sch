@@ -41,7 +41,7 @@ U 1 1 5F54708B
 P 6850 4350
 F 0 "J1" H 6950 4400 50  0000 L CNN
 F 1 "Amp_Conn" H 6950 4300 50  0000 L CNN
-F 2 "" H 6850 4350 50  0001 C CNN
+F 2 "UTSVT_Connectors:Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector" H 6850 4350 50  0001 C CNN
 F 3 "~" H 6850 4350 50  0001 C CNN
 	1    6850 4350
 	1    0    0    -1  
@@ -66,6 +66,28 @@ F 1 "100" H 6055 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5950 4650 50  0001 C CNN
 F 3 "~" H 5950 4650 50  0001 C CNN
 	1    5950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO1
+U 1 1 5F53FE42
+P 6950 4900
+F 0 "LOGO1" H 6950 5050 50  0001 C CNN
+F 1 "UTSVT" H 7090 4900 50  0000 L CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 6950 4975 50  0001 C CNN
+F 3 "" H 6950 4975 50  0001 C CNN
+	1    6950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO2
+U 1 1 5F5407D9
+P 6950 5150
+F 0 "LOGO2" H 6950 5300 50  0001 C CNN
+F 1 "Dr Hallock" H 7090 5150 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image_Tiny" H 6950 5225 50  0001 C CNN
+F 3 "" H 6950 5225 50  0001 C CNN
+	1    6950 5150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
