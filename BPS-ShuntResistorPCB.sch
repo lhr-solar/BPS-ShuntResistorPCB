@@ -60,7 +60,7 @@ U 1 1 5F548200
 P 5500 4850
 F 0 "R1" H 5570 4896 50  0000 L CNN
 F 1 "100u" H 5570 4805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 4850 50  0001 C CNN
+F 2 "UTSVT_Passive:Power_Metal_Strip_Battery_Shunt_Resistor" V 5430 4850 50  0001 C CNN
 F 3 "~" H 5500 4850 50  0001 C CNN
 	1    5500 4850
 	0    1    1    0   
