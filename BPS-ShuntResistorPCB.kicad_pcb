@@ -151,7 +151,7 @@
   (module UTSVT_Connectors:Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector (layer F.Cu) (tedit 5F5D1EF6) (tstamp 5F6FA1AB)
     (at 176.324 75.589)
     (path /5F55AEC1)
-    (fp_text reference J1 (at 0.079 2.008) (layer F.SilkS)
+    (fp_text reference J1 (at 0.079 -1.548) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Amp_Conn (at 0 -8) (layer F.Fab)
