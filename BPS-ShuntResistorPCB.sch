@@ -13,105 +13,107 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5750 4750 1    50   ~ 0
+Text Label 5600 4750 1    50   ~ 0
 RSHH
-Text Label 5250 4550 3    50   ~ 0
+Text Label 5100 4550 3    50   ~ 0
 RSHL
-Text Label 5250 3950 1    50   ~ 0
+Text Label 5100 3950 1    50   ~ 0
 ETS
-Text Label 5750 3950 1    50   ~ 0
+Text Label 5600 3950 1    50   ~ 0
 GND
 $Comp
 L Device:Thermistor TH1
 U 1 1 5F548CAA
-P 5500 3550
-F 0 "TH1" H 5605 3596 50  0000 L CNN
-F 1 "100" H 5605 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 3550 50  0001 C CNN
-F 3 "~" H 5500 3550 50  0001 C CNN
-	1    5500 3550
+P 5350 3550
+F 0 "TH1" H 5455 3596 50  0000 L CNN
+F 1 "100" H 5455 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5350 3550 50  0001 C CNN
+F 3 "~" H 5350 3550 50  0001 C CNN
+	1    5350 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L utsvt-misc:Logo_Placeholder LOGO1
 U 1 1 5F53FE42
-P 6250 4500
-F 0 "LOGO1" H 6250 4650 50  0001 C CNN
-F 1 "UTSVT" H 6390 4500 50  0000 L CNN
-F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 6250 4575 50  0001 C CNN
-F 3 "" H 6250 4575 50  0001 C CNN
-	1    6250 4500
+P 6550 4600
+F 0 "LOGO1" H 6550 4750 50  0001 C CNN
+F 1 "UTSVT" H 6690 4600 50  0000 L CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 6550 4675 50  0001 C CNN
+F 3 "" H 6550 4675 50  0001 C CNN
+	1    6550 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L utsvt-misc:Logo_Placeholder LOGO2
 U 1 1 5F5407D9
-P 6250 4750
-F 0 "LOGO2" H 6250 4900 50  0001 C CNN
-F 1 "Dr Hallock" H 6390 4750 50  0000 L CNN
-F 2 "UTSVT_Special:Hallock_Image_Tiny" H 6250 4825 50  0001 C CNN
-F 3 "" H 6250 4825 50  0001 C CNN
-	1    6250 4750
+P 6550 4850
+F 0 "LOGO2" H 6550 5000 50  0001 C CNN
+F 1 "Dr Hallock" H 6690 4850 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image_Tiny" H 6550 4925 50  0001 C CNN
+F 3 "" H 6550 4925 50  0001 C CNN
+	1    6550 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5F548200
-P 5500 4850
-F 0 "R1" H 5570 4896 50  0000 L CNN
-F 1 "100u" H 5570 4805 50  0000 L CNN
-F 2 "UTSVT_Passive:Power_Metal_Strip_Battery_Shunt_Resistor" V 5430 4850 50  0001 C CNN
-F 3 "~" H 5500 4850 50  0001 C CNN
-	1    5500 4850
+P 5350 4850
+F 0 "R1" H 5420 4896 50  0000 L CNN
+F 1 "100u" H 5420 4805 50  0000 L CNN
+F 2 "UTSVT_Passive:Power_Metal_Strip_Battery_Shunt_Resistor" V 5280 4850 50  0001 C CNN
+F 3 "~" H 5350 4850 50  0001 C CNN
+	1    5350 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J1
 U 1 1 5F55AEC1
-P 5450 4350
-F 0 "J1" H 5500 4567 50  0000 C CNN
-F 1 "Amp_Conn" H 5500 4476 50  0000 C CNN
-F 2 "UTSVT_Connectors:Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector" H 5450 4350 50  0001 C CNN
-F 3 "~" H 5450 4350 50  0001 C CNN
-	1    5450 4350
+P 5300 4350
+F 0 "J1" H 5350 4567 50  0000 C CNN
+F 1 "Amp_Conn" H 5350 4476 50  0000 C CNN
+F 2 "UTSVT_Connectors:Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector" H 5300 4350 50  0001 C CNN
+F 3 "~" H 5300 4350 50  0001 C CNN
+	1    5300 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 4350 5250 3550
+	5100 4350 5100 3550
 Wire Wire Line
-	5250 3550 5300 3550
+	5100 3550 5150 3550
 Wire Wire Line
-	5750 4350 5750 3550
+	5600 4350 5600 3550
 Wire Wire Line
-	5750 3550 5700 3550
+	5600 3550 5550 3550
 Wire Wire Line
-	5250 4450 5250 4850
+	5100 4450 5100 4850
 Wire Wire Line
-	5250 4850 5350 4850
+	5100 4850 5200 4850
 Wire Wire Line
-	5650 4850 5750 4850
+	5500 4850 5600 4850
 Wire Wire Line
-	5750 4850 5750 4450
+	5600 4850 5600 4450
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F6F5E19
-P 3000 2100
-F 0 "H1" H 3100 2146 50  0000 L CNN
-F 1 "MountingHole" H 3100 2055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3000 2100 50  0001 C CNN
-F 3 "~" H 3000 2100 50  0001 C CNN
-	1    3000 2100
+P 6550 3850
+F 0 "H1" H 6650 3896 50  0000 L CNN
+F 1 "MountingHole" H 6650 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6550 3850 50  0001 C CNN
+F 3 "~" H 6550 3850 50  0001 C CNN
+	1    6550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F6F8A03
-P 2950 2900
-F 0 "H2" H 3050 2946 50  0000 L CNN
-F 1 "MountingHole" H 3050 2855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 2950 2900 50  0001 C CNN
-F 3 "~" H 2950 2900 50  0001 C CNN
-	1    2950 2900
+P 6550 4100
+F 0 "H2" H 6650 4146 50  0000 L CNN
+F 1 "MountingHole" H 6650 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6550 4100 50  0001 C CNN
+F 3 "~" H 6550 4100 50  0001 C CNN
+	1    6550 4100
 	1    0    0    -1  
 $EndComp
+Text Notes 4950 2850 0    100  ~ 20
+BPS Shunt Resistor Board
 $EndSCHEMATC
