@@ -5037,6 +5037,9 @@
   )
 
   (gr_rect (start 65.278 54.356) (end 105.378 89.456) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 807a4257-1ccf-44e3-bc77-ad7d2b568122))
+  (gr_text "G NC RSHL RSHH 3v3" (at 85 75.7) (layer "F.SilkS") (tstamp c10ace36-a93c-4c08-ac75-059ef9e1f71c)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (dimension (type aligned) (layer "Cmts.User") (tstamp 731ae817-1bc0-4bcd-8a03-4825791b6139)
     (pts (xy 105.378 54.356) (xy 105.378 89.456))
     (height -6.622)
