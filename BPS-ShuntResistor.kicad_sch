@@ -1029,23 +1029,6 @@
     (pin "4" (uuid 5703a531-a1e1-4c06-8197-a4d6550c1819))
   )
 
-  (symbol (lib_id "Switch:SW_DPST") (at 137.16 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 0523687d-21a1-4102-9e2f-f501f096d405)
-    (property "Reference" "SW1" (id 0) (at 137.16 95.25 0))
-    (property "Value" "SW_DPST" (id 1) (at 137.16 97.79 0))
-    (property "Footprint" "UTSVT_Special:SDDJE32700" (id 2) (at 137.16 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/15/SDDJE-1370828.pdf" (id 3) (at 137.16 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 05aca387-667f-45c4-bed1-4e02d2136a0b))
-    (pin "2" (uuid af5690db-ab68-4b8d-a238-f16acadd16db))
-    (pin "3" (uuid 6304b676-69c9-4bee-b3f7-a114cd46e5f8))
-    (pin "4" (uuid e7e3e19f-0f88-4280-81b8-4d0982055989))
-  )
-
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 153.67 127 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 269dc11e-3732-4b0d-8804-d7467b2caa7b)
@@ -1144,6 +1127,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a157836-bba8-4259-9898-c7b1aa9b2de6))
+  )
+
+  (symbol (lib_id "Switch:SW_DPST") (at 137.16 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 752b3695-5f89-4c59-a33a-3588ae69b756)
+    (property "Reference" "SW?" (id 0) (at 137.16 95.25 0))
+    (property "Value" "" (id 1) (at 137.16 97.79 0))
+    (property "Footprint" "" (id 2) (at 137.16 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/CTS-Electronic-Components/206-212?qs=Mr%252BgrRYddfqmzbod607M8A%3D%3D" (id 3) (at 137.16 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 117a19ad-56d8-437c-8b8d-bf91e81c41e9))
+    (pin "2" (uuid 33d2728b-1827-422e-beba-d9531ae82dca))
+    (pin "3" (uuid 4a453a24-28ca-499a-b93c-998f0a8f8cbb))
+    (pin "4" (uuid c22c0d7a-416a-4839-90c8-883f475154e1))
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Male") (at 153.67 90.17 270) (unit 1)
@@ -1359,8 +1359,8 @@
     (path "/fc74193b-c855-4d23-970a-e3604b574adc"
       (reference "R4") (unit 1) (value "51") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/0523687d-21a1-4102-9e2f-f501f096d405"
-      (reference "SW1") (unit 1) (value "SW_DPST") (footprint "UTSVT_Special:SDDJE32700")
+    (path "/752b3695-5f89-4c59-a33a-3588ae69b756"
+      (reference "SW?") (unit 1) (value "SW_DPST") (footprint "")
     )
     (path "/bff0be5b-fcea-4d1b-a22e-58c65723f733"
       (reference "TH1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
