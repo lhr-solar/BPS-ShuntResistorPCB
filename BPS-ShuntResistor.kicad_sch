@@ -1132,7 +1132,7 @@
   (symbol (lib_id "Switch:SW_DPST") (at 137.16 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 752b3695-5f89-4c59-a33a-3588ae69b756)
-    (property "Reference" "SW?" (id 0) (at 137.16 95.25 0))
+    (property "Reference" "SW1" (id 0) (at 137.16 95.25 0))
     (property "Value" "" (id 1) (at 137.16 97.79 0))
     (property "Footprint" "" (id 2) (at 137.16 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1360,7 +1360,7 @@
       (reference "R4") (unit 1) (value "51") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/752b3695-5f89-4c59-a33a-3588ae69b756"
-      (reference "SW?") (unit 1) (value "SW_DPST") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DPST") (footprint "UTSVT_Special:206212")
     )
     (path "/bff0be5b-fcea-4d1b-a22e-58c65723f733"
       (reference "TH1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
