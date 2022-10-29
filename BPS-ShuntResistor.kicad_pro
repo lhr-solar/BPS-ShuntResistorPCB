@@ -49,7 +49,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|117800001|101957501|716f6fd0-0b41-4457-a777-0377f076f5f8|f417a153-da5f-4ef3-94cf-16b8bbf3c019",
+        "courtyards_overlap|117800001|106282501|d68e0878-1a6f-4d79-85a5-f8005009a7b2|f417a153-da5f-4ef3-94cf-16b8bbf3c019"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
