@@ -741,7 +741,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 128.27 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 46651b6a-aae7-4589-85a3-9dbcf0861909)
-    (property "Reference" "ShuntTestJumper" (id 0) (at 128.27 86.36 90))
+    (property "Reference" "ShuntTestJumper1" (id 0) (at 128.27 86.36 90))
     (property "Value" "Conn_01x05_Male" (id 1) (at 128.27 88.9 90))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 128.27 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -904,7 +904,7 @@
       (reference "R4") (unit 1) (value "51") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/46651b6a-aae7-4589-85a3-9dbcf0861909"
-      (reference "ShuntTestJumper") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "ShuntTestJumper1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/bff0be5b-fcea-4d1b-a22e-58c65723f733"
       (reference "TH1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
