@@ -742,8 +742,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 46651b6a-aae7-4589-85a3-9dbcf0861909)
     (property "Reference" "ShuntTestJumper1" (id 0) (at 128.27 86.36 90))
-    (property "Value" "Conn_01x05_Male" (id 1) (at 128.27 88.9 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 128.27 91.44 0)
+    (property "Value" "" (id 1) (at 128.27 88.9 90))
+    (property "Footprint" "" (id 2) (at 128.27 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic fella" (id 3) (at 128.27 91.44 0)
@@ -760,8 +760,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4f59afea-52a6-42ef-a827-b3f6d4652563)
     (property "Reference" "CurrentBoardConn1" (id 0) (at 199.39 71.12 90))
-    (property "Value" "Conn_01x05_Male" (id 1) (at 199.39 73.66 90))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 199.39 76.2 0)
+    (property "Value" "" (id 1) (at 199.39 73.66 90))
+    (property "Footprint" "" (id 2) (at 199.39 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "generic fella" (id 3) (at 199.39 76.2 0)
@@ -877,7 +877,7 @@
       (reference "#PWR04") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4f59afea-52a6-42ef-a827-b3f6d4652563"
-      (reference "CurrentBoardConn1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "CurrentBoardConn1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left")
     )
     (path "/00000000-0000-0000-0000-00005f6f5e19"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
@@ -904,7 +904,7 @@
       (reference "R4") (unit 1) (value "51") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/46651b6a-aae7-4589-85a3-9dbcf0861909"
-      (reference "ShuntTestJumper1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "ShuntTestJumper1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left")
     )
     (path "/bff0be5b-fcea-4d1b-a22e-58c65723f733"
       (reference "TH1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
