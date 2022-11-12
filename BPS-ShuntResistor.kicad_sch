@@ -613,6 +613,10 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid b6c13a9d-22ea-497a-9bce-6322417c896b)
   )
+  (label "TestOut" (at 153.67 121.92 270)
+    (effects (font (size 2.54 2.54)) (justify right bottom))
+    (uuid bc8836f4-9951-4b33-96ef-07d16eafd9ac)
+  )
 
   (global_label "RSHL" (shape input) (at 199.39 81.28 270) (fields_autoplaced)
     (effects (font (size 1.2 1.2)) (justify right))
@@ -877,7 +881,7 @@
       (reference "#PWR04") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/4f59afea-52a6-42ef-a827-b3f6d4652563"
-      (reference "CurrentBoardConn1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left")
+      (reference "CurrentBoardConn1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f6f5e19"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
@@ -904,7 +908,7 @@
       (reference "R4") (unit 1) (value "51") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/46651b6a-aae7-4589-85a3-9dbcf0861909"
-      (reference "ShuntTestJumper1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left")
+      (reference "ShuntTestJumper1") (unit 1) (value "Conn_01x05_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/bff0be5b-fcea-4d1b-a22e-58c65723f733"
       (reference "TH1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
