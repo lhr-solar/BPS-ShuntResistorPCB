@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 206-211S
+D DIP Switches/SIP Switches 1 switch section DPDT
+K
+F https://www.ctscorp.com/wp-content/uploads/206.pdf
+$ENDCMP
+#
+#End Doc Library
