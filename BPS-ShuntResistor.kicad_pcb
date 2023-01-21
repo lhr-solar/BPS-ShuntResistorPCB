@@ -786,9 +786,9 @@
       (tstamp 82aaf168-5946-4c8b-afbb-8cc54c01613e)
     )
     (fp_rect (start -8 -2) (end 8.5 2) (layer "F.SilkS") (width 0.12) (fill none) (tstamp eb53816e-2111-4225-9ee6-d1aeacdf7c66))
-    (pad "1" thru_hole circle (at -6 0) (size 3 3) (drill 2.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle (at -6 0) (size 2.3 2.3) (drill 1.6) (layers *.Cu *.Mask)
       (net 2 "RSHH") (pintype "passive") (tstamp df1f292a-0d55-4b3a-8276-267fdbcc34d5))
-    (pad "2" thru_hole circle (at 6.6 0) (size 3 3) (drill 2.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 6.6 0) (size 2.3 2.3) (drill 1.6) (layers *.Cu *.Mask)
       (net 3 "RSHL") (pintype "passive") (tstamp eb88147f-fd93-488b-8bc5-c8fc23e7ab16))
   )
 
