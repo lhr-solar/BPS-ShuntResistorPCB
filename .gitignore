@@ -27,3 +27,4 @@ fp-info-cache
 *.zip
 
 !BPS-ShuntResistor.csv
+!Gerbers_ShuntBoard.zip
